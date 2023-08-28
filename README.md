@@ -1,19 +1,19 @@
 
-#Raspberry Pi Pico WiFi LED Controller
+# Raspberry Pi Pico WiFi LED Controller
 Control an LED wirelessly using a Raspberry Pi Pico and CircuitPython. The project demonstrates how to create a web server on the Raspberry Pi Pico that allows you to turn an LED on and off via WiFi connection. The Pico itself acts as an Access Point (AP) and serves a web interface to control the LED.
-##Introduction
+## Introduction
 
 The Raspberry Pi Pico WiFi LED Controller project showcases how to control an LED remotely using WiFi and a web interface. This is achieved by creating a simple web server on the Pico that serves a web page for controlling the LED.
 
-##Features
+## Features
 Turn on and off an LED wirelessly.
 Serve a static web page for controlling the LED.
 Display the LED's current status.
-##Getting Started
-###Prerequisites
+## Getting Started
+### Prerequisites
 Raspberry Pi Pico with CircuitPython installed.
 Adafruit CircuitPython library.
-###Installation
+### Installation
 1. Clone this repository:
 ```
 git clone https://github.com/yourusername/raspberry-pico-wifi-led.git
