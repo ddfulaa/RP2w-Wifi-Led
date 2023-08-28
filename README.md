@@ -11,8 +11,9 @@ Serve a static web page for controlling the LED.
 Display the LED's current status.
 ## Getting Started
 ### Prerequisites
-Raspberry Pi Pico with CircuitPython installed.
-Adafruit CircuitPython library.
+* Raspberry Pi Pico with CircuitPython installed.
+* Adafruit CircuitPython 8.2.3.
+* adafruit_httpserver library
 ### Installation
 1. Clone this repository:
 ```
