@@ -25,17 +25,22 @@ Edit the settings.toml file to set up your WiFi Access Point (AP) credentials:
 WIFI_SSID = "Put here SSID"
 WIFI_PASSWORD = "Put here the password"
 
-### USage
+### Usage
 
 Open a web browser and navigate to the address indicated in the serial port to access the control interface.
 
 ### API Endpoints
 GET /: Serve the main HTML page.
+
 GET /<filename>: Serve static files like CSS and JavaScript.
+
 POST /on: Turn on the LED.
+
 POST /off: Turn off the LED.
+
 POST /infoLed: Get information about the LED's current state.
-Contributing
+
+## Contributing
 Contributions are welcome! Feel free to open issues and pull requests.
 
 ## License
